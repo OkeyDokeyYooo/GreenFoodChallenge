@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ShowMyPledgeResult">
+
+
+    <LinearLayout
+        android:id="@+id/pledge_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgray">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="0dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:text="WEEKLY GOALS"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    // PIECHART
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/pledge_result"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="84dp">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+
+
+    <LinearLayout
+        android:id="@+id/ly_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorWhite"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawableTop="@drawable/tab_menu_home"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/Home"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_progress"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawableTop="@drawable/tab_manu_progress"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/Progress"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_community"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawableTop="@drawable/tab_manu_community"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/Community"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawableTop="@drawable/tab_manu_profile"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/Profile"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="73dp"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="NOT FINISHED YET, KEEP WORKING!"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

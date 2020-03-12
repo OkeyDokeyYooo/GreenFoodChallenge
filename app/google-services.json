@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "540264807448",
+    "firebase_url": "https://co3-greenfoodchallenge.firebaseio.com",
+    "project_id": "co3-greenfoodchallenge",
+    "storage_bucket": "co3-greenfoodchallenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540264807448:android:333e09484d089947",
+        "android_client_info": {
+          "package_name": "co3.greenfoodchallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540264807448-396725llgh4judv2vdm85a0le5ic2mst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co3.greenfoodchallenge",
+            "certificate_hash": "f239d63f80cfd6f190dbff20249aa72be5d1e2c4"
+          }
+        },
+        {
+          "client_id": "540264807448-56taohku1nkptui3jfoblh64kh88u053.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ImNmnARBVaLgG-CjtJseGslaxSZcCrE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540264807448-56taohku1nkptui3jfoblh64kh88u053.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540264807448:android:fe9030d57e459123",
+        "android_client_info": {
+          "package_name": "co3.splash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540264807448-n147vakkbf3kr9ka9oj40u55g1oa6bcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co3.splash",
+            "certificate_hash": "f239d63f80cfd6f190dbff20249aa72be5d1e2c4"
+          }
+        },
+        {
+          "client_id": "540264807448-56taohku1nkptui3jfoblh64kh88u053.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ImNmnARBVaLgG-CjtJseGslaxSZcCrE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540264807448-56taohku1nkptui3jfoblh64kh88u053.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

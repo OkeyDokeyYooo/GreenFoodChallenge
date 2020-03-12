@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Green Food Challenge</string>
+    <!-- For Spinner -->
+    <!-- Please do not change the order of this array everything is screwy and it will break :^) -->
+    <string-array name="names">
+        <item>kg</item>
+        <item>g</item>
+        <item>oz</item>
+        <item>lbs</item>
+        <item>cal</item>
+        <item>Servings</item>
+    </string-array>
+    <string name="title_activity_main_food_type">MainFoodTypeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="recipe_fruitsalad">
+        Ingredients：\n
+        \t20g Almonds\n
+        \t20g Blueberries\n
+        \t20g Blackberries\n
+        \t20g Mangoes\n
+        Sauce：\n
+        \t5g Blueberries\n
+        \t5g Strawberry\n
+        \t10g Yogurt\n
+        Preparation:\n
+        \t1. Dice the mangoes into small pieces, and put the ingredients into a bowl.\n
+        \t2. Using a blender, mix the sauce.\n
+        \t3. Done! Enjoy the meal.\n
+    </string>
+    <string name="recipe_garliclettuce">
+        Material:\n
+        \t5 cloves garlic\n
+        \t1g salt\n
+
+        Preparation:\n
+        \t1. Dice the garlic into small pieces.\n
+        \t2. Fried garlic with vege oil, then add lettuce and salt.\n
+        \t3. Done! Enjoy your meal.\n
+    </string>
+    <string name="recipe_tomatoeggs">
+        Material:\n
+        \t2 eggs\n
+        \t300g diced tomatoes \n
+        \t1g salt\n
+
+        Preparation:\n
+        \t1. Scramble eggs in a bowl.\n
+        \t2. Fried diced tomatoes for about a minute, then add salt.\n
+        \t3. Add eggs, cook until eggs are done.\n
+        \t4. Done! Enjoy the meal.\n
+    </string>
+    <string name="recipe_oysterbroccoli">
+        Material:\n
+        \t200g diced Broccoli\n
+        \t5 cloves garlic\n
+        Sauce:\n
+        \t5g oyster\n
+        \t0.5g salt\n
+        \t5g sesame oil\n
+
+        Preparation:\n
+        \t1. Boil the broccoli until fully cooked.\n
+        \t2. Drain the broccoli and put into a mixing bowl.\n
+        \t3. Add the sauces and mix them well.\n
+        \t4. Done! Enjoy the meal.\n
+    </string>
+    <!-- Select Food Type Activity -->
+    <string name="selection_dairy_title">Dairy</string>
+    <string name="selection_dairy_desc">
+        Includes animal byproducts, including milk and its byproducts
+    </string>
+    <string name="selection_grain_title">Grain</string>
+    <string name="selection_grain_desc">
+        Includes cereal grain plants and legumes (beans, etc.)
+    </string>
+    <string name="selection_meat_title">Meat</string>
+    <string name="selection_meat_desc">
+        Includes meat from all living things not living in the sea
+    </string>
+    <string name="selection_seafood_title">Seafood</string>
+    <string name="selection_seafood_desc">
+        Includes any sea life caught for consumption, including sea plants
+    </string>
+    <string name="selection_plants_title">Fruits and Vegetables</string>
+    <string name="selection_plants_desc">
+        Includes any non-cereal and non-legume plant matter used for food
+    </string>
+    <string name="selection_summary_button">SUMMARY</string>
+    <!-- Select Specific Food Activity -->
+    <!-- Dairy -->
+    <string name="selection_dairy_eggs_title">Eggs</string>
+    <string name="selection_dairy_eggs_desc">
+        Bird eggs, such as from chickens
+    </string>
+    <string name="selection_dairy_milk_title">Milk</string>
+    <string name="selection_dairy_milk_desc">
+        Animal milk, such as from cows or goats
+    </string>
+    <string name="selection_dairy_cheese_title">Cheese</string>
+    <string name="selection_dairy_cheese_desc">
+        Cheeses derived from animal milk
+    </string>
+    <!-- Grain -->
+    <string name="selection_grain_rice_title">Rice</string>
+    <string name="selection_grain_rice_desc">
+        Rice grain, including white, brown, etc.
+    </string>
+    <string name="selection_grain_bread_title">Bread</string>
+    <string name="selection_grain_bread_desc">
+        Food prepared from dough and water, usually baked
+    </string>
+    <string name="selection_grain_spaghetti_title">Spaghetti</string>
+    <string name="selection_grain_spaghetti_desc">
+        Stretched and rolled dough with sauces
+    </string>
+    <!-- Meat -->
+    <string name="selection_meat_pork_title">Pork</string>
+    <string name="selection_meat_pork_desc">
+        Pig meat, and meats derived from it (eg: ham, etc.)
+    </string>
+    <string name="selection_meat_beef_title">Beef</string>
+    <string name="selection_meat_beef_desc">
+        Cow meat, and meats derived from it
+    </string>
+    <string name="selection_meat_chicken_title">Chicken</string>
+    <string name="selection_meat_chicken_desc">
+        Chicken meat, and meats derived from it
+    </string>
+    <!-- Seafood -->
+    <string name="selection_seafood_shrimp_title">Shrimp</string>
+    <string name="selection_seafood_shrimp_desc">
+        Meat from shrimp
+    </string>
+    <string name="selection_seafood_crab_title">Crab</string>
+    <string name="selection_seafood_crab_desc">
+        Meat from crabs
+    </string>
+    <string name="selection_seafood_fish_title">Fish</string>
+    <string name="selection_seafood_fish_desc">
+        Meat from any kinds of fish
+    </string>
+    <!-- Veggies, Fruits -->
+    <string name="selection_plant_spinach_title">Spinach</string>
+    <string name="selection_plant_spinach_desc">
+        Spinach leaves
+    </string>
+    <string name="selection_plant_kale_title">Kale</string>
+    <string name="selection_plant_kale_desc">
+        Kale, and similar green leafy vegetables
+    </string>
+    <string name="selection_plant_apple_title">Apples</string>
+    <string name="selection_plant_apple_desc">
+        Apples or similar fruits
+    </string>
+    <!-- About Page Resources -->
+    <string name="about_header1">
+        About the\nGreen Food Challenge
+    </string>
+    <string name="about_paragraph1">
+        The goal of the Green Food Challenge is to help the people of
+        Metro Vancouver learn about greenhouse gas emissions, and work together with simple, easy
+        changes to reduce our carbon footprint.
+    </string>
+    <string name="about_header2">
+        What is a Carbon Footprint?
+    </string>
+    <string name="about_paragraph2">
+        A carbon footprint is simply a measure of how much an individual\'s carbon dioxide emissions
+        (CO₂e) are in tonnes over a period of time (usually a year). In Metro Vancouver, per the
+        2015 measurement, our CO₂e per person is around 6 to 8 tonnes per year, adding up to 14.9
+        million tonnes for the entirety of the Metro Vancouver area! Most experts estimate that,
+        globally, emissions must be reduced to around 2.0 tonnes per person by 2050.
+    </string>
+    <string name="about_header3">
+        What Does Food Have to Do With It?
+    </string>
+    <string name="about_paragraph3">
+        People often neglect to mention the impact of food consumption on global CO₂e. In fact, in
+        Metro Vancouver, food contributes more to our carbon footprint than consumables and waste,
+        with 1.5 tonnes of CO₂e per person! This means that food produces nearly 3 million tonnes
+        of CO₂e in Metro Vancouver alone.
+        \n\n
+        Among foods we eat, some foods have a much heavier impact than others. As an example, pork
+        has more than half the CO₂e impact that beef has; likewise, chicken has nearly half
+        the impact that pork has, and lentils have nearly 1/7th the impact of chicken.
+        Some people might be put off from the idea of switching their diet
+        entirely off meat, but as we can see, even switching from beef to chicken can nearly quarter
+        one\'s CO₂e! If the whole city did this, we could reduce the CO₂e levels of Metro
+        Vancouver by nearly 2.3 million tonnes!
+    </string>
+    <string name="about_header4">
+        So How Does the Green Food Challenge Factor Into This?
+    </string>
+    <string name="about_paragraph4">
+        The Green Food Challenge aims to create an enjoyable and user friendly app to help people
+        work together to make small changes, so that we as a city can make a big change.
+        \n\n
+        First, the app will calculate how much a user\'s diet produces in CO₂e, and then show
+        how much they, and the community as a whole, could save with simple dietary changes.
+        \n\n
+        Throughout the course of the challenge, those participating will be able to track their
+        "green meals" (i.e. diets consisting of either chicken, seafood, or plant-based proteins),
+        and will be able to see the effects of their savings as a community. Additionally, those
+        participating in the challenge will be able to share restaurants with low-carbon meals,
+        supporting local businesses and encouraging others to switch to a low-carbon diet as well.
+        The end goal is to encourage a simple, sustainable diet that will do wonders for creating
+        a lighter carbon footprint.
+    </string>
+    <string name="action_about">About the Challenge</string>
+    <string name="result_header1">As of now, your diet produces</string>
+    <string name="result_header2">tonnes of CO2e per year.</string>
+    <string name="result_header3">With a few simple dietary changes, you could save</string>
+    <string name="result_header4">If everyone in Vancouver made these changes, we could save</string>
+    <string name="result_header5">tonnes! That\'s as much as:</string>
+    <string name="result_header6">extra trees planted in the city,</string>
+    <string name="result_header7">fewer miles driven, and</string>
+    <string name="result_header8">less gallons of gasoline consumed!</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="add_more">ADD MORE</string>
+    <string name="summary">SUMMARY</string>
+    <string name="Progress">Progress</string>
+    <string name="Community">Community</string>
+    <string name="Profile">Profile</string>
+    <string name="Home">Home</string>
+    <string name="facebook_app_id">2476078399083903</string>
+    <string name="fb_login_protocol_scheme">fb2476078399083903</string>
+
+
+    <string-array name="user_city">
+        <item>Vancouver</item>
+        <item>Burnaby</item>
+        <item>Coquitlam</item>
+        <item>Surrey</item>
+        <item>Richmond</item>
+    </string-array>
+</resources>
